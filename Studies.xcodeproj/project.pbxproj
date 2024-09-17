@@ -10,6 +10,8 @@
 		AE3320FA2C06014600F62896 /* stickDivisions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3320F92C06014600F62896 /* stickDivisions.cpp */; };
 		AE3320FD2C06098400F62896 /* choosingTeams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3320FC2C06098400F62896 /* choosingTeams.cpp */; };
 		AE3321002C060A9100F62896 /* a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3320FE2C060A9100F62896 /* a.cpp */; };
+		AE34C3132C991B0500957E5F /* CoreMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE34C3122C991B0500957E5F /* CoreMotion.swift */; };
+		AE34C3152C991CA100957E5F /* CoreMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE34C3142C991CA100957E5F /* CoreMotionView.swift */; };
 		AE360F8F2BFF74940062F53C /* StudiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE360F8E2BFF74940062F53C /* StudiesApp.swift */; };
 		AE360F912BFF74940062F53C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE360F902BFF74940062F53C /* ContentView.swift */; };
 		AE360F932BFF74950062F53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE360F922BFF74950062F53C /* Assets.xcassets */; };
@@ -23,6 +25,7 @@
 		AE7286C02C04D6C300646A5F /* concertTickets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BF2C04D6C300646A5F /* concertTickets.cpp */; };
 		AEC2F7C82C63D92700ED35B7 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC2F7C72C63D92700ED35B7 /* Lottie.swift */; };
 		AEC2F7CC2C63D9BE00ED35B7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AEC2F7CB2C63D9BE00ED35B7 /* Lottie */; };
+		AEC2F7D22C63DA3C00ED35B7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC2F7D12C63DA3C00ED35B7 /* Protocols.swift */; };
 		AEDB03F52C00FCBC001577FE /* groopiLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB03F42C00FCBC001577FE /* groopiLogo.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,8 @@
 		AE3320F92C06014600F62896 /* stickDivisions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stickDivisions.cpp; sourceTree = "<group>"; };
 		AE3320FC2C06098400F62896 /* choosingTeams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = choosingTeams.cpp; sourceTree = "<group>"; };
 		AE3320FE2C060A9100F62896 /* a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = a.cpp; sourceTree = "<group>"; };
+		AE34C3122C991B0500957E5F /* CoreMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotion.swift; sourceTree = "<group>"; };
+		AE34C3142C991CA100957E5F /* CoreMotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionView.swift; sourceTree = "<group>"; };
 		AE360F8B2BFF74940062F53C /* Studies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE360F8E2BFF74940062F53C /* StudiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudiesApp.swift; sourceTree = "<group>"; };
 		AE360F902BFF74940062F53C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		AE7286BD2C04C9EF00646A5F /* staticRangeSumQueries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = staticRangeSumQueries.cpp; sourceTree = "<group>"; };
 		AE7286BF2C04D6C300646A5F /* concertTickets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = concertTickets.cpp; sourceTree = "<group>"; };
 		AEC2F7C72C63D92700ED35B7 /* Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
+		AEC2F7D12C63DA3C00ED35B7 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		AEDB03F42C00FCBC001577FE /* groopiLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groopiLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +108,15 @@
 			path = codeforces;
 			sourceTree = "<group>";
 		};
+		AE34C3112C991AEA00957E5F /* CoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				AE34C3122C991B0500957E5F /* CoreMotion.swift */,
+				AE34C3142C991CA100957E5F /* CoreMotionView.swift */,
+			);
+			path = CoreMotion;
+			sourceTree = "<group>";
+		};
 		AE360F822BFF74940062F53C = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +141,8 @@
 		AE360F8D2BFF74940062F53C /* Studies */ = {
 			isa = PBXGroup;
 			children = (
+				AE34C3112C991AEA00957E5F /* CoreMotion */,
+				AEC2F7D02C63DA2E00ED35B7 /* swift */,
 				AE3320FB2C06096100F62896 /* codeforces */,
 				AE7286B82C04C6FE00646A5F /* cpp */,
 				AE4E3B182C00BE9600B53ACA /* animation */,
@@ -190,6 +207,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEC2F7D02C63DA2E00ED35B7 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				AEC2F7D12C63DA3C00ED35B7 /* Protocols.swift */,
+			);
+			path = swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +357,7 @@
 				AE7286C02C04D6C300646A5F /* concertTickets.cpp in Sources */,
 				AE3321002C060A9100F62896 /* a.cpp in Sources */,
 				AE3320FA2C06014600F62896 /* stickDivisions.cpp in Sources */,
+				AEC2F7D22C63DA3C00ED35B7 /* Protocols.swift in Sources */,
 				AEDB03F52C00FCBC001577FE /* groopiLogo.swift in Sources */,
 				AE4E3B1A2C00BEAE00B53ACA /* basicStudies.swift in Sources */,
 				AE360F912BFF74940062F53C /* ContentView.swift in Sources */,
@@ -340,6 +366,8 @@
 				AE7286BE2C04C9EF00646A5F /* staticRangeSumQueries.cpp in Sources */,
 				AE7286BC2C04C71500646A5F /* restaurantCostumers.cpp in Sources */,
 				AE3320FD2C06098400F62896 /* choosingTeams.cpp in Sources */,
+				AE34C3132C991B0500957E5F /* CoreMotion.swift in Sources */,
+				AE34C3152C991CA100957E5F /* CoreMotionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Studies/Preview Content\"";
+				DEVELOPMENT_TEAM = ZFH4AF7HSL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -535,6 +564,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Studies/Preview Content\"";
+				DEVELOPMENT_TEAM = ZFH4AF7HSL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
