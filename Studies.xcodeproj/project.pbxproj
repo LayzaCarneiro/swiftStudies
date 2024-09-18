@@ -23,6 +23,7 @@
 		AE7286BC2C04C71500646A5F /* restaurantCostumers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BA2C04C71500646A5F /* restaurantCostumers.cpp */; };
 		AE7286BE2C04C9EF00646A5F /* staticRangeSumQueries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BD2C04C9EF00646A5F /* staticRangeSumQueries.cpp */; };
 		AE7286C02C04D6C300646A5F /* concertTickets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BF2C04D6C300646A5F /* concertTickets.cpp */; };
+		AEB660FC2C9A751C00A388FF /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB660FB2C9A751C00A388FF /* CircularProgressBar.swift */; };
 		AEC2F7C82C63D92700ED35B7 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC2F7C72C63D92700ED35B7 /* Lottie.swift */; };
 		AEC2F7CC2C63D9BE00ED35B7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AEC2F7CB2C63D9BE00ED35B7 /* Lottie */; };
 		AEC2F7D22C63DA3C00ED35B7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC2F7D12C63DA3C00ED35B7 /* Protocols.swift */; };
@@ -68,6 +69,7 @@
 		AE7286BB2C04C71500646A5F /* restaurantCostumers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = restaurantCostumers.hpp; sourceTree = "<group>"; };
 		AE7286BD2C04C9EF00646A5F /* staticRangeSumQueries.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = staticRangeSumQueries.cpp; sourceTree = "<group>"; };
 		AE7286BF2C04D6C300646A5F /* concertTickets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = concertTickets.cpp; sourceTree = "<group>"; };
+		AEB660FB2C9A751C00A388FF /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
 		AEC2F7C72C63D92700ED35B7 /* Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
 		AEC2F7D12C63DA3C00ED35B7 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		AEDB03F42C00FCBC001577FE /* groopiLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groopiLogo.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		AE360F8D2BFF74940062F53C /* Studies */ = {
 			isa = PBXGroup;
 			children = (
+				AEB660FA2C9A747E00A388FF /* UIKit */,
 				AE34C3112C991AEA00957E5F /* CoreMotion */,
 				AEC2F7D02C63DA2E00ED35B7 /* swift */,
 				AE3320FB2C06096100F62896 /* codeforces */,
@@ -200,6 +203,14 @@
 				AE3320F92C06014600F62896 /* stickDivisions.cpp */,
 			);
 			path = cpp;
+			sourceTree = "<group>";
+		};
+		AEB660FA2C9A747E00A388FF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AEB660FB2C9A751C00A388FF /* CircularProgressBar.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		AEC2F7CA2C63D9BE00ED35B7 /* Frameworks */ = {
@@ -368,6 +379,7 @@
 				AE3320FD2C06098400F62896 /* choosingTeams.cpp in Sources */,
 				AE34C3132C991B0500957E5F /* CoreMotion.swift in Sources */,
 				AE34C3152C991CA100957E5F /* CoreMotionView.swift in Sources */,
+				AEB660FC2C9A751C00A388FF /* CircularProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
