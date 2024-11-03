@@ -20,6 +20,8 @@
 		AE360FAA2BFF74950062F53C /* StudiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE360FA92BFF74950062F53C /* StudiesUITests.swift */; };
 		AE360FAC2BFF74950062F53C /* StudiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE360FAB2BFF74950062F53C /* StudiesUITestsLaunchTests.swift */; };
 		AE4E3B1A2C00BEAE00B53ACA /* basicStudies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4E3B192C00BEAE00B53ACA /* basicStudies.swift */; };
+		AE537B7B2CD6F650007A7053 /* generativeArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE537B7A2CD6F648007A7053 /* generativeArt.swift */; };
+		AE537B7D2CD6F849007A7053 /* dragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE537B7C2CD6F844007A7053 /* dragGesture.swift */; };
 		AE7286BC2C04C71500646A5F /* restaurantCostumers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BA2C04C71500646A5F /* restaurantCostumers.cpp */; };
 		AE7286BE2C04C9EF00646A5F /* staticRangeSumQueries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BD2C04C9EF00646A5F /* staticRangeSumQueries.cpp */; };
 		AE7286C02C04D6C300646A5F /* concertTickets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BF2C04D6C300646A5F /* concertTickets.cpp */; };
@@ -64,6 +66,8 @@
 		AE360FA92BFF74950062F53C /* StudiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudiesUITests.swift; sourceTree = "<group>"; };
 		AE360FAB2BFF74950062F53C /* StudiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AE4E3B192C00BEAE00B53ACA /* basicStudies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicStudies.swift; sourceTree = "<group>"; };
+		AE537B7A2CD6F648007A7053 /* generativeArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generativeArt.swift; sourceTree = "<group>"; };
+		AE537B7C2CD6F844007A7053 /* dragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragGesture.swift; sourceTree = "<group>"; };
 		AE7286B92C04C71400646A5F /* Studies-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Studies-Bridging-Header.h"; sourceTree = "<group>"; };
 		AE7286BA2C04C71500646A5F /* restaurantCostumers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = restaurantCostumers.cpp; sourceTree = "<group>"; };
 		AE7286BB2C04C71500646A5F /* restaurantCostumers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = restaurantCostumers.hpp; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 		AE360F8D2BFF74940062F53C /* Studies */ = {
 			isa = PBXGroup;
 			children = (
+				AE537B792CD6F642007A7053 /* processing */,
 				AEB660FA2C9A747E00A388FF /* UIKit */,
 				AE34C3112C991AEA00957E5F /* CoreMotion */,
 				AEC2F7D02C63DA2E00ED35B7 /* swift */,
@@ -190,6 +195,15 @@
 				AEC2F7C72C63D92700ED35B7 /* Lottie.swift */,
 			);
 			path = animation;
+			sourceTree = "<group>";
+		};
+		AE537B792CD6F642007A7053 /* processing */ = {
+			isa = PBXGroup;
+			children = (
+				AE537B7C2CD6F844007A7053 /* dragGesture.swift */,
+				AE537B7A2CD6F648007A7053 /* generativeArt.swift */,
+			);
+			path = processing;
 			sourceTree = "<group>";
 		};
 		AE7286B82C04C6FE00646A5F /* cpp */ = {
@@ -376,10 +390,12 @@
 				AEC2F7C82C63D92700ED35B7 /* Lottie.swift in Sources */,
 				AE7286BE2C04C9EF00646A5F /* staticRangeSumQueries.cpp in Sources */,
 				AE7286BC2C04C71500646A5F /* restaurantCostumers.cpp in Sources */,
+				AE537B7D2CD6F849007A7053 /* dragGesture.swift in Sources */,
 				AE3320FD2C06098400F62896 /* choosingTeams.cpp in Sources */,
 				AE34C3132C991B0500957E5F /* CoreMotion.swift in Sources */,
 				AE34C3152C991CA100957E5F /* CoreMotionView.swift in Sources */,
 				AEB660FC2C9A751C00A388FF /* CircularProgressBar.swift in Sources */,
+				AE537B7B2CD6F650007A7053 /* generativeArt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
