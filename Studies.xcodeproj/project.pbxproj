@@ -22,6 +22,9 @@
 		AE4E3B1A2C00BEAE00B53ACA /* basicStudies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4E3B192C00BEAE00B53ACA /* basicStudies.swift */; };
 		AE537B7B2CD6F650007A7053 /* generativeArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE537B7A2CD6F648007A7053 /* generativeArt.swift */; };
 		AE537B7D2CD6F849007A7053 /* dragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE537B7C2CD6F844007A7053 /* dragGesture.swift */; };
+		AE537B812CD8186F007A7053 /* rotateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE537B802CD8186B007A7053 /* rotateString.swift */; };
+		AE537B832CD81C98007A7053 /* circularSentence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE537B822CD81C88007A7053 /* circularSentence.cpp */; };
+		AE537B852CD81CCC007A7053 /* romanToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE537B842CD81CC2007A7053 /* romanToInteger.cpp */; };
 		AE7286BC2C04C71500646A5F /* restaurantCostumers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BA2C04C71500646A5F /* restaurantCostumers.cpp */; };
 		AE7286BE2C04C9EF00646A5F /* staticRangeSumQueries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BD2C04C9EF00646A5F /* staticRangeSumQueries.cpp */; };
 		AE7286C02C04D6C300646A5F /* concertTickets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7286BF2C04D6C300646A5F /* concertTickets.cpp */; };
@@ -68,6 +71,9 @@
 		AE4E3B192C00BEAE00B53ACA /* basicStudies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicStudies.swift; sourceTree = "<group>"; };
 		AE537B7A2CD6F648007A7053 /* generativeArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generativeArt.swift; sourceTree = "<group>"; };
 		AE537B7C2CD6F844007A7053 /* dragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragGesture.swift; sourceTree = "<group>"; };
+		AE537B802CD8186B007A7053 /* rotateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateString.swift; sourceTree = "<group>"; };
+		AE537B822CD81C88007A7053 /* circularSentence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = circularSentence.cpp; sourceTree = "<group>"; };
+		AE537B842CD81CC2007A7053 /* romanToInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = romanToInteger.cpp; sourceTree = "<group>"; };
 		AE7286B92C04C71400646A5F /* Studies-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Studies-Bridging-Header.h"; sourceTree = "<group>"; };
 		AE7286BA2C04C71500646A5F /* restaurantCostumers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = restaurantCostumers.cpp; sourceTree = "<group>"; };
 		AE7286BB2C04C71500646A5F /* restaurantCostumers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = restaurantCostumers.hpp; sourceTree = "<group>"; };
@@ -147,6 +153,7 @@
 		AE360F8D2BFF74940062F53C /* Studies */ = {
 			isa = PBXGroup;
 			children = (
+				AE537B7E2CD8185D007A7053 /* leetCode */,
 				AE537B792CD6F642007A7053 /* processing */,
 				AEB660FA2C9A747E00A388FF /* UIKit */,
 				AE34C3112C991AEA00957E5F /* CoreMotion */,
@@ -204,6 +211,24 @@
 				AE537B7A2CD6F648007A7053 /* generativeArt.swift */,
 			);
 			path = processing;
+			sourceTree = "<group>";
+		};
+		AE537B7E2CD8185D007A7053 /* leetCode */ = {
+			isa = PBXGroup;
+			children = (
+				AE537B7F2CD81864007A7053 /* easy */,
+			);
+			path = leetCode;
+			sourceTree = "<group>";
+		};
+		AE537B7F2CD81864007A7053 /* easy */ = {
+			isa = PBXGroup;
+			children = (
+				AE537B842CD81CC2007A7053 /* romanToInteger.cpp */,
+				AE537B822CD81C88007A7053 /* circularSentence.cpp */,
+				AE537B802CD8186B007A7053 /* rotateString.swift */,
+			);
+			path = easy;
 			sourceTree = "<group>";
 		};
 		AE7286B82C04C6FE00646A5F /* cpp */ = {
@@ -388,10 +413,13 @@
 				AE360F912BFF74940062F53C /* ContentView.swift in Sources */,
 				AE360F8F2BFF74940062F53C /* StudiesApp.swift in Sources */,
 				AEC2F7C82C63D92700ED35B7 /* Lottie.swift in Sources */,
+				AE537B852CD81CCC007A7053 /* romanToInteger.cpp in Sources */,
 				AE7286BE2C04C9EF00646A5F /* staticRangeSumQueries.cpp in Sources */,
 				AE7286BC2C04C71500646A5F /* restaurantCostumers.cpp in Sources */,
 				AE537B7D2CD6F849007A7053 /* dragGesture.swift in Sources */,
 				AE3320FD2C06098400F62896 /* choosingTeams.cpp in Sources */,
+				AE537B832CD81C98007A7053 /* circularSentence.cpp in Sources */,
+				AE537B812CD8186F007A7053 /* rotateString.swift in Sources */,
 				AE34C3132C991B0500957E5F /* CoreMotion.swift in Sources */,
 				AE34C3152C991CA100957E5F /* CoreMotionView.swift in Sources */,
 				AEB660FC2C9A751C00A388FF /* CircularProgressBar.swift in Sources */,
